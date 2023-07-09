@@ -1,0 +1,46 @@
+{
+  "url":{
+      "getAllObjects":"/objects",
+      "getSpecificObjects":"/objects?id=3&id=5&id=10",
+      "getSingleObject":"/objects/7"
+  },
+  "getSpecificObject":{
+    "id":"",
+    "name":""
+  },
+  "crateObject":{
+    "name": "Mac Pro",
+    "data": {
+      "year": 2023,
+      "price": 2033.99,
+      "cpuModel": "Intel Core 11",
+      "hardDiskSize": "5 TB"
+  }  
+  },
+  "updateObjectFull":{
+    "name": "Mac Pro - Update",
+    "data": {
+      "year": 2024,
+      "price": 2012.99,
+      "cpuModel": "Intel Core 12",
+      "hardDiskSize": "6 TB"
+  }  
+  },
+  "updateObjectPartial":{
+    "name": "Mac Pro - Partial Update"
+  },
+  "defaultObjects":{
+    "objectOne":{
+      "id":"3",
+      "name":"Apple iPhone 12 Pro Max"
+    },
+    "objectTwo":{
+      "id":"5",
+      "name":"Samsung Galaxy Z Fold2"
+    },
+    "objectThree":{
+      "id":"10",
+      "name":"Apple iPad Mini 5th Gen"
+    }    
+}
+}
